@@ -1,19 +1,18 @@
-import { DEFAULT_STATS } from 'webpack-dev-server';
-import '../css/componentes.css'
-// import webpackLogo from '../assets/img/webpack-logo.png'
+import '../css/componentes.css';
+// import webpacklogo from '../assets/img/webpack-logo.png';
 
-//Debemos agregar la palabra reservada export a todo lo que queramos exportar a otro archivo js.
-export const saludar = (nombre) => {
 
+export const saludar = ( nombre = 'sin nombre' ) => {
     console.log('Creando etiqueta h1');
 
     const h1 = document.createElement('h1');
-    h1.innerText = `Hola, ${nombre}`;
+    h1.innerText = `Hola ${ nombre }`;
 
-    document.body.append(h1);
-zxcvzxcvxczv
+    document.body.append( h1 );
 
-    const imagen = document.createElement('img');
-    imagen.src = webpackLogo;
-    document.body.append(imagen);
+    
+    // Img
+    // const img = document.createElement('img');
+    // img.src = webpacklogo;
+    // document.body.append( img );
 }
