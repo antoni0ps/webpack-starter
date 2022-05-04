@@ -3,8 +3,11 @@
 
 Configuración inicial para proyectos que usen webpack
 
-Para usar este repositorio, deberán ejecutar el comando de 
+Para usar este repositorio, se deberá ejecutar el comando ```npm install```
 
-```npm install```
 
-Pero esto lo veremos en la siguiente sección
+Para crear carpeta dist
+``
+npm run build
+``
+
